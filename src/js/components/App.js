@@ -1,6 +1,7 @@
 import React from 'react'
 import ArticleList from './ArticleList'
 import ArticleFormAdd from './ArticleFormAdd'
+import Surf from './Surf'
 
 const App = () => (
   <div className="container">
@@ -22,7 +23,7 @@ const App = () => (
         </div>
       </div>
     </div>
-
+    <Surf />
   </div>
 )
 
